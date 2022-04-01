@@ -1,30 +1,4 @@
-# ===================================================================
-# IDE & Editor Configuration
-#
-# Ignore user-specific settings, but force-include
-# tracked workspace recommendations.
-# ===================================================================
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
-
-# ===================================================================
-# Dependencies
-# ===================================================================
-node_modules/
-tests/bats-assert
-tests/bats-file
-tests/bats-support
-
-# ===================================================================
-# Build & Packaging Artifacts
-# ===================================================================
-# Nix build results
-result
-result-*
-
-# Archives
+#Archives
 *.gz
 *.tar
 *.zip
@@ -65,15 +39,5 @@ Thumbs.db
 # Vim/Editor backups
 *~
 .*.swp
-*.bak
 *.bk
-
-
-# ===================================================================
-# Local Environment
-# ===================================================================
-# Docker environment variables (often contain secrets)
-.env
-
-# Local Docker Compose overrides for machine-specific customization
-docker-compose.override.yml
+*.bak
