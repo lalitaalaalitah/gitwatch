@@ -287,7 +287,7 @@ if [ -n "$REMOTE" ]; then        # are we pushing to a remote?
 else
   PUSH_CMD="" # if not remote is selected, make sure push command is empty
 fi
-
+echo "push command is " $PUSH_CMD
 # A function to reduce git diff output to the actual changed content, and insert file line numbers.
 # Based on "https://stackoverflow.com/a/12179492/199142" by John Mellor
 diff-lines() {
