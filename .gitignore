@@ -346,3 +346,4 @@ cython_debug/
 #Backup files
 *.bk
 *~
+.DS_Store
